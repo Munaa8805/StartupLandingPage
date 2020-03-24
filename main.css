@@ -65,7 +65,7 @@ h6 {
 ////pricing
 
 .pricing {
-  background-color: #22a1f0 !important;
+  background-color: #22a1f0;
 }
 .pricing .section-heading,
 .pricing .section-heading::first-letter {
@@ -84,7 +84,7 @@ h6 {
   border-bottom: 1px solid #22a1f0;
 }
 .list-unstyled > li {
-  padding: 6px 0spx;
+  padding: 6px 0px;
 }
 ////services
 .single-service {
@@ -95,7 +95,7 @@ h6 {
   padding: 30px 20px;
   background-color: #fafaff;
 }
-.single-service::before {
+.single-service:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -105,7 +105,7 @@ h6 {
   height: 0;
   background-color: #22a1f0;
 }
-.single-service::after {
+.single-service:after {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -128,7 +128,7 @@ h6 {
   margin-bottom: 30px;
   border-radius: 50%;
   transition: 0.3s;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .single-service:hover i {
@@ -142,8 +142,8 @@ h6 {
   margin-bottom: 15px;
 }
 .single-service p {
-  font-size: 0.9rem;
-  line-height: 1.8rem;
+  font-size: 1rem;
+  line-height: 1.8;
 }
 ///team
 .team .card-img-top {
@@ -154,7 +154,6 @@ h6 {
 .team .card {
   height: 300px;
   position: relative;
-
   overflow: hidden;
 }
 .team .card-body {
@@ -224,7 +223,7 @@ input[type="color"]:focus,
   color: #fafaff !important;
 }
 .footer .nav-brand {
-  color: #fafaff;
+  color: #22a1f0 !important;
 }
 //// responsive design
 @media (max-width: 900) {
