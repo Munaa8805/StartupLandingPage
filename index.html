@@ -383,7 +383,7 @@
     <!-- contact us -->
     <section class="contact bg-light py-5">
       <div class="container">
-        <h2 class="section-heading mb-5">Contact us</h2>
+        <h2 class="section-heading" id="contactUS">Contact us</h2>
         <div class="row">
           <div class="col-lg-6 my-auto">
             <!-- Google map -->
@@ -391,10 +391,15 @@
               id="map-container-google-1"
               class="z-depth-1-half map-container"
             >
-            <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0; width:100%; height:500px" allowfullscreen></iframe>
+              <iframe
+                src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                style="border:0; width:100%; height:500px"
+                allowfullscreen
+              ></iframe>
             </div>
           </div>
-          <form action="" class="col-lg-6">
+          <form class="col-lg-6">
             <div class="form-group">
               <label for="email">Email</label>
               <input
@@ -410,31 +415,31 @@
             </div>
 
             <div class="form-group">
-              <label for="text">Name</label>
+              <label>Name</label>
               <input
                 type="text"
                 class="form-control"
                 id="name"
-               placeholder="Enter name"
+                placeholder="Enter name"
               />
             </div>
 
             <div class="form-group">
-              <label for="message">Message</label></br>
+              <label for="message">Message</label><br />
               <textarea
                 id="message"
                 placeholder="Enter message"
                 rows="5"
-                class="form-control" id="message"
+                class="form-control"
               ></textarea>
             </div>
             <div class="form-group form-check">
               <input type="checkbox" class="form-check-input" />
-              <label for="chb" class="form-check-label"
+              <label class="form-check-label"
                 >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               </label>
             </div>
-            <button  class="btn btn-lg btn-primary" type="submit">Submit</button>
+            <button class="btn btn-lg btn-primary" type="submit">Submit</button>
           </form>
         </div>
       </div>
@@ -444,28 +449,33 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 offset-lg-2 text-center">
-            <a href="#" class="navbar-brand py-3">Starter</a>
+            <a class="navbar-brand py-3" href="#">Starter</a>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Excepturi nisi repellat modi distinctio commodi, tempore
-              dignissimos fuga enim optio natus laudantium eius molestias
-              expedita doloremque sapiente accusantium dolores earum placeat!
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              fringilla aliquet est nec aliquet. Cras convallis ultrices sem, id
+              cursus tellus varius a. Interdum et malesuada fames ac ante ipsum
+              primis in faucibus.
             </p>
             <ul class="nav justify-content-center">
               <li class="nav-item">
-                <a href="#" class="nav-link">About us</a>
+                <a class="nav-link" href="#">About us</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">About us</a>
+                <a class="nav-link" href="#">About us</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">About us</a>
+                <a class="nav-link" href="#">About us</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">About us</a>
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
               </li>
             </ul>
-            <p class="copyright text-muted py-3">Made by Munaa &copy; 2020</p>
+            <p class="copyright text-muted py-3">
+              Made by Lukas Vyhnalek &copy; 2019
+            </p>
           </div>
         </div>
       </div>
